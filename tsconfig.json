@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "target": "ES5",
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "esModuleInterop": true, // commonJS 모듈을 ES6로 import
+    "sourceMap": true,
+    "lib": ["ES2015", "DOM", "DOM.Iterable"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
